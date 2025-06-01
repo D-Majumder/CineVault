@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineVault 2025</title>
+    <link rel="icon" href="img/movie.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox" aria-label="Toggle light and dark theme">
+
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#" class="logo">CineVault <span class="logo-year">2025</span></a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#trending-movies">Trending Movies</a></li>
+                <li><a href="#popular-shows">Popular Shows</a></li>
+                <li><a href="#user-reviews">Reviews</a></li>
+            </ul>
+            <label for="theme-toggle" class="theme-switch" aria-label="Theme toggle">
+                <span class="theme-switch-icon">💡</span>
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Your Cinematic Escape. Anytime. Anywhere.</h1>
+                <p class="subtitle">Discover, Stream, and Dive into the World of Movies & Shows with CineVault.</p>
+                <a href="#trending-movies" class="btn btn-primary">Explore Trending Movies</a>
+            </div>
+            <div class="hero-image">
+                <svg class="animated-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"/>
+                </svg>
+            </div>
+        </section>
+
+        <section id="trending-movies" class="movie-show-section">
+            <h2 class="section-title">Trending Movies</h2>
+            <p class="section-subtitle">Catch the latest buzz from the big screen. [cite: 13]</p>
+            <div class="cards-container">
+                <article class="movie-card">
+                    <img src="img/GalaxyGuardians.avif" alt="Movie 1 Poster">
+                    <div class="card-content">
+                        <h3>Galaxy Guardians</h3>
+                        <p class="description">A team of misfits protects the galaxy from cosmic threats. [cite: 14]</p>
+                        <span class="duration">2h 15m [cite: 15]</span>
+                        <div class="card-hover-actions">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="watch-now-btn">Watch Now</a>
+                            <input type="checkbox" id="watchlist-toggle-1" class="watchlist-toggle-checkbox">
+                            <label for="watchlist-toggle-1" class="watchlist-toggle-label" aria-label="Add to watchlist">
+                                <span class="plus-sign">+</span>
+                                <span class="minus-sign">-</span>
+                            </label>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="movie-card">
+                    <img src="img/LastKingdom.avif" alt="Movie 2 Poster">
+                    <div class="card-content">
+                        <h3>The Last Kingdom</h3>
+                        <p class="description">An epic historical drama about loyalty and destiny. [cite: 14]</p>
+                        <span class="duration">1h 50m [cite: 15]</span>
+                        <div class="card-hover-actions">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="watch-now-btn">Watch Now</a>
+                            <input type="checkbox" id="watchlist-toggle-2" class="watchlist-toggle-checkbox">
+                            <label for="watchlist-toggle-2" class="watchlist-toggle-label" aria-label="Add to watchlist">
+                                <span class="plus-sign">+</span>
+                                <span class="minus-sign">-</span>
+                            </label>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="movie-card">
+                    <img src="img/Cityof.avif" alt="Movie 3 Poster">
+                    <div class="card-content">
+                        <h3>City of Whispers</h3>
+                        <p class="description">A detective unravels a conspiracy in a futuristic metropolis. [cite: 14]</p>
+                        <span class="duration">2h 05m [cite: 15]</span>
+                        <div class="card-hover-actions">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="watch-now-btn">Watch Now</a>
+                            <input type="checkbox" id="watchlist-toggle-3" class="watchlist-toggle-checkbox">
+                            <label for="watchlist-toggle-3" class="watchlist-toggle-label" aria-label="Add to watchlist">
+                                <span class="plus-sign">+</span>
+                                <span class="minus-sign">-</span>
+                            </label>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="movie-card">
+                    <img src="img/Forgotten.avif" alt="Movie 4 Poster">
+                    <div class="card-content">
+                        <h3>Forgotten Realms</h3>
+                        <p class="description">Adventurers explore a mystical world filled with ancient magic. [cite: 14]</p>
+                        <span class="duration">2h 20m [cite: 15]</span>
+                        <div class="card-hover-actions">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="watch-now-btn">Watch Now</a>
+                            <input type="checkbox" id="watchlist-toggle-4" class="watchlist-toggle-checkbox">
+                            <label for="watchlist-toggle-4" class="watchlist-toggle-label" aria-label="Add to watchlist">
+                                <span class="plus-sign">+</span>
+                                <span class="minus-sign">-</span>
+                            </label>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="popular-shows" class="movie-show-section">
+            <h2 class="section-title">Popular Shows</h2>
+            <p class="section-subtitle">Binge-worthy series everyone's talking about. [cite: 17]</p>
+            <div class="cards-container">
+                <article class="show-card">
+                    <img src="img/CosmicEchos.avif" alt="Show 1 Cover">
+                    <div class="card-content">
+                        <h3>Cosmic Echoes</h3>
+                        <p class="genre">Sci-Fi, Drama [cite: 18]</p>
+                        <p class="details">3 Seasons, 28 Episodes [cite: 18]</p>
+                        <p class="synopsis">A deep space mission uncovers an ancient alien civilization. [cite: 18]</p>
+                        <a href="#modal-show-1" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </article>
+
+                <article class="show-card">
+                    <img src="img/RoyalHeist.avif" alt="Show 2 Cover">
+                    <div class="card-content">
+                        <h3>The Royal Heist</h3>
+                        <p class="genre">Crime, Thriller [cite: 18]</p>
+                        <p class="details">2 Seasons, 18 Episodes [cite: 18]</p>
+                        <p class="synopsis">A group of master thieves targets Europe's most secure vault. [cite: 18]</p>
+                        <a href="#modal-show-2" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </article>
+
+                <article class="show-card">
+                    <img src="img/EchoesofthePast.avif" alt="Show 3 Cover">
+                    <div class="card-content">
+                        <h3>Echoes of the Past</h3>
+                        <p class="genre">Mystery, Historical [cite: 18]</p>
+                        <p class="details">1 Season, 10 Episodes [cite: 18]</p>
+                        <p class="synopsis">Uncover forgotten secrets in a small town with a dark history. [cite: 18]</p>
+                        <a href="#modal-show-3" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <div id="modal-show-1" class="modal-overlay">
+            <div class="modal-content">
+                <a href="#" class="modal-close">&times;</a>
+                <h3>Cosmic Echoes</h3>
+                <p><strong>Genre:</strong> Sci-Fi, Drama</p>
+                <p><strong>Seasons:</strong> 3</p>
+                <p><strong>Episodes:</strong> 28</p>
+                <p><strong>Synopsis:</strong> A deep space exploration mission takes a dramatic turn when the crew stumbles upon remnants of an incredibly advanced, yet long-extinct, alien civilization. As they delve deeper into the mystery, they uncover secrets that could change humanity's understanding of the universe, but also awaken a dormant threat. Tensions rise among the crew as they grapple with existential questions, moral dilemmas, and the fight for survival against an unforeseen enemy.</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-primary">Watch Now</a>
+            </div>
+        </div>
+
+        <div id="modal-show-2" class="modal-overlay">
+            <div class="modal-content">
+                <a href="#" class="modal-close">&times;</a>
+                <h3>The Royal Heist</h3>
+                <p><strong>Genre:</strong> Crime, Thriller</p>
+                <p><strong>Seasons:</strong> 2</p>
+                <p><strong>Episodes:</strong> 18</p>
+                <p><strong>Synopsis:</strong> Follow a brilliant, enigmatic mastermind who assembles a diverse crew of specialists to execute a series of audacious heists targeting royal treasuries across Europe. Each heist is meticulously planned, exploiting weaknesses in security and psychological profiles. However, their biggest challenge isn't just getting in and out, but navigating the betrayals, double-crosses, and the relentless pursuit by an equally brilliant detective determined to bring them down.</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-primary">Watch Now</a>
+            </div>
+        </div>
+
+        <div id="modal-show-3" class="modal-overlay">
+            <div class="modal-content">
+                <a href="#" class="modal-close">&times;</a>
+                <h3>Echoes of the Past</h3>
+                <p><strong>Genre:</strong> Mystery, Historical</p>
+                <p><strong>Seasons:</strong> 1</p>
+                <p><strong>Episodes:</strong> 10</p>
+                <p><strong>Synopsis:</strong> In a quaint, seemingly idyllic village nestled in the countryside, a young historian uncovers a series of unsettling historical discrepancies. As they dig deeper, a dark secret begins to unravel, revealing a century-old conspiracy involving the town's founding families. The line between past and present blurs as they piece together fragmented clues, facing threats from those who wish to keep the truth buried. It's a race against time to expose the past before it consumes the present.</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn btn-primary">Watch Now</a>
+            </div>
+        </div>
+
+
+        <section id="user-reviews" class="user-reviews-section">
+            <h2 class="section-title">What Our Users Say</h2>
+            <p class="section-subtitle">Real feedback from real movie lovers. [cite: 21]</p>
+
+            <div class="reviews-content-wrapper">
+                <div class="review-cards-container">
+                    <div class="review-card">
+                        <img src="img/Alex.avif" alt="User 1 Profile" class="user-avatar">
+                        <h3>Alex M.</h3>
+                        <p class="review-text">"CineVault is my go-to platform for discovering new shows. The interface is so clean and easy to navigate!"</p>
+                    </div>
+                    <div class="review-card">
+                        <img src="img/Sophia.avif" alt="User 2 Profile" class="user-avatar">
+                        <h3>Sophia L.</h3>
+                        <p class="review-text">"I love the movie recommendations! Always find something great to watch. Highly recommend it."</p>
+                    </div>
+                    <div class="review-card">
+                        <img src="img/David.avif" alt="User 3 Profile" class="user-avatar">
+                        <h3>David P.</h3>
+                        <p class="review-text">"The search feature is very effective. It's a fantastic platform for any film enthusiast."</p>
+                    </div>
+                </div>
+
+                <div class="review-form-container">
+                    <h3 class="form-title">Share Your Thoughts</h3>
+                    <form class="review-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="user_name" required placeholder="Dhruba">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="user_email" required placeholder="dhruba@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="review">Your Review</label>
+                            <textarea id="review" name="user_review" rows="5" required placeholder="Write your honest review here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#" class="footer-logo">CineVault 2025</a>
+                <div class="footer-nav-links">
+                    <a href="https://example.com/terms" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                    <a href="https://example.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="made-with-love">
+                Made with <span class="heartbeat-icon">❤️</span> Dhruba
+            </div>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h3V2h-3c-3.18 0-4 2.15-4 4v3.5H9v4h5V22h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2h-4c-1.1 0-2 .9-2 2v9.5z"/>
+                    </svg>
+                </a>
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M22.46 6c-.8-.25-1.63-.42-2.5-.5a4.77 4.77 0 0 0-3.4 1.4c-1.2 1.2-1.7 2.8-1.5 4.5l-6.8-3.4c-2.3 0-4.5 1.5-5.5 3.5s-.8 4.2.5 5.5c1.3 1.3 3.3 1.8 5.2 1.3l-2.6 1.8c.8.5 1.7.8 2.6.8s1.8-.3 2.6-.8l2.6-1.8c1.3 1.3 3.3 1.8 5.2 1.3s3.4-2.5 3.5-4.5c.2-1.7-.3-3.3-1.5-4.5zM7.3 17.5l-1.8-1.2c-.7.2-1.3.1-1.9-.3-.6-.4-.9-1-.8-1.6c.1-.6.5-1 .9-1.2l1.8 1.2c.7-.2 1.3-.1 1.9.3.6.4.9 1 .8 1.6-.1.6-.5 1-.9 1.2z"/>
+                    </svg>
+                </a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M7.8 2h8.4C18.15 2 20 3.85 20 6.2v8.4c0 2.35-1.85 4.2-4.2 4.2H7.8C5.45 20 3.6 18.15 3.6 15.8V7.8C3.6 5.45 5.45 3.6 7.8 3.6H12c.32 0 .58-.26.58-.58s-.26-.58-.58-.58H7.8C4.59 2.44 2 5.03 2 7.8v8.4c0 2.77 2.59 5.36 5.8 5.36h8.4c3.21 0 5.8-2.59 5.8-5.36V7.8c0-2.77-2.59-5.36-5.8-5.36h-8.4zm4.2 4.2a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm0 10.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9zm6.5-10.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <button class="back-to-top" aria-label="Back to top">
+            <a href="#top" class="back-to-top-link">&#8679;</a>
+        </button>
+    </footer>
+</body>
+</html>
